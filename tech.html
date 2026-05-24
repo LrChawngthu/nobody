@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lr Chawngthu Mizoram Quiz Terminal v2.1 - With Images</title>
+    <link rel="stylesheet" href="F:\VS Code (Webpage)\High tech Login Quiz\tech.css">
+</head>
+<body>
+    <div class="terminal">
+        <h1 style="text-align: center; margin-bottom: 30px; text-shadow: 0 0 20px #00ff00;">
+            🖥️ Lr Chawngthu MIZORAM GK TERMINAL v2.1
+        </h1>
+
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="USERNAME" required>
+            <input type="password" id="password" placeholder="PASSWORD" required>
+            <button type="submit">🔐 ACCESS TERMINAL</button>
+        </form>
+
+        <div id="message" class="message" style="display: none;"></div>
+
+       <div id="quizSection" style="display: none;">
+    <img id="quizImage" class="no-image" alt="Mizoram Image">
+    <div id="quizQuestion"></div>
+    <div id="quizOptions"></div>
+
+    <!-- Explanation will appear here -->
+    <div id="quizExplanation" class="explanation" style="display:none;"></div>
+
+    <button id="nextBtn">▶️ NEXT QUESTION</button>
+    <button id="logoutBtn">🚪 LOGOUT</button>
+    <div id="score">Score: 0/8</div>
+</div>
+    <script src="F:\VS Code (Webpage)\High tech Login Quiz\tech.js" defer></script>
+</body>
+</html>
